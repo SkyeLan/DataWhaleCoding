@@ -19,6 +19,7 @@ public class _0141_LinkedListCycle {
         }
     }
 
+    // 使用快慢指针，有环的情况下一定会相遇
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null)
             return false;
