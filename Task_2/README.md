@@ -1,3 +1,4 @@
+
 # Task 2
 
 ## 栈 Stack
@@ -25,7 +26,7 @@ Stack<E>{
 - 用链表实现一个链式栈
 - 编程模拟实现一个浏览器的前进、后退功能
 
-### 练习
+#### 练习
 [Valid Parentheses（有效的括号）](https://leetcode-cn.com/problems/valid-parentheses/)
 
 [Longest Valid Parentheses（最长有效的括号）](https://leetcode-cn.com/problems/longest-valid-parentheses/)
@@ -64,7 +65,7 @@ Queue<E>{
   **循环队列中，`front == tail` 表示队列空，`(tail + 1) % capacity == front` 表示队列满。
   有一个空间是浪费的。**
 
-### 练习
+#### 练习
 [Design Circular Deque（设计一个双端队列）](https://leetcode-cn.com/problems/design-circular-deque/)
 
 [Sliding Window Maximum（滑动窗口最大值）](https://leetcode-cn.com/problems/sliding-window-maximum/)
@@ -78,11 +79,10 @@ Queue<E>{
 - 编程实现求阶乘 n!
 - 编程实现一组数据集合的全排列
 
-### 练习
+#### 练习
 [Climbing Stairs（爬楼梯）](https://leetcode-cn.com/problems/climbing-stairs/)
 
 
 
 
 ## [练习题解答链接](https://github.com/SkyeLan/DataWhaleCoding/tree/master/Leetcode)
-
