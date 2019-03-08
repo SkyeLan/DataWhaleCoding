@@ -5,7 +5,6 @@
 - 实现一个支持动态扩容的数组
 - 实现一个大小固定的有序数组，支持动态增删改操作
 - 实现两个有序数组合并为一个有序数组
-- 学习哈希表思想，并完成 leetcode 上的 [两数之和(1)](https://leetcode-cn.com/problems/two-sum/) 及 [Happy Number(202)](https://leetcode-cn.com/problems/happy-number/)！(要求全部用哈希思想实现！)（选做）（注意：在第四天会进行继续学习）
 
 #### 练习
 
