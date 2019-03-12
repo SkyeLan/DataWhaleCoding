@@ -1,5 +1,4 @@
-# DataWhaleCoding
-【Datawhale编程】
+# 【Datawhale编程】
 
 学习说明：利用熟知的编程语言，学习在面试中可能出现的数据结构问题，重温经典数据结构
 
