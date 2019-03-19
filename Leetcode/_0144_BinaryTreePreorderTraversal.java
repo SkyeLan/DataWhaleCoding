@@ -12,14 +12,17 @@ public class _0144_BinaryTreePreorderTraversal {
         if (root == null)
             return list;
         Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            TreeNode cur = stack.pop();
-            list.add(cur.val);
-            if (cur.right != null)
-                stack.push(cur.right);
-            if (cur.left != null)
-                stack.push(cur.left);
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                list.add(cur.val);
+                stack.push(cur);
+                cur = cur.left;
+            }
+            if (!stack.isEmpty()) {
+                cur = stack.pop();
+                cur = cur.right;
+            }
         }
         return list;
     }
