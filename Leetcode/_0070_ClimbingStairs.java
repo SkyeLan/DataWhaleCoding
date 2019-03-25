@@ -17,11 +17,17 @@ public class _0070_ClimbingStairs {
      * 因而有方程 f(i) = f(i - 1) + f(i - 2)
      */
     public static int climbStairs(int n) {
-        if (n == 1)
-            return 1;
-        if (n == 2)
-            return 2;
-        return climbStairs(n - 1) + climbStairs(n - 2);
+//        if (n == 1)
+//            return 1;
+//        if (n == 2)
+//            return 2;
+//        return climbStairs(n - 1) + climbStairs(n - 2);
+        int[] step = new int[n + 1];
+        step[1] = 1;
+        step[0] = 1;
+        for (int i = 3; i < n + 1; i++)
+            step[i] = step[i - 1] + step[i - 2];
+        return step[n];
     }
 
     public static void main(String[] args) {
